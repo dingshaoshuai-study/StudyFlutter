@@ -92,3 +92,5 @@ flutter:
     - family: Ding
       fonts:
         - asset: assets/fonts/D-DIN-Bold.ttf
+  assets:
+    - images/test.png

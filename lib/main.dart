@@ -1,9 +1,10 @@
 import 'package:english_words/english_words.dart';
 import 'package:flutter/material.dart';
 import 'package:study_flutter/BaseUI.dart';
-import 'package:study_flutter/ButtonRoute.dart';
 import 'package:study_flutter/Route2.dart';
-import 'package:study_flutter/TextRoute.dart';
+import 'package:study_flutter/base/ButtonRoute.dart';
+import 'package:study_flutter/base/ImageRoute.dart';
+import 'package:study_flutter/base/TextRoute.dart';
 
 void main() {
   runApp(const MyApp());
@@ -24,6 +25,7 @@ class MyApp extends StatelessWidget {
         "BaseUI_route": (context) => const BaseUI(),
         "text_route": (context) => const TextRoute(),
         "button_route": (context) => const ButtonRoute(),
+        "image_route": (context) => const ImageRoute(),
       },
       home: const MyHomePage(title: '我的标题'),
     );

@@ -24,6 +24,11 @@ class BaseUI extends StatelessWidget {
                     Navigator.pushNamed(context, "button_route");
                   },
                   child: const Text("跳转 - Button")),
+              TextButton(
+                  onPressed: () {
+                    Navigator.pushNamed(context, "image_route");
+                  },
+                  child: const Text("跳转 - Image")),
             ],
           ),
         ));
