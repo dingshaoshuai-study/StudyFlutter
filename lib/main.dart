@@ -4,6 +4,7 @@ import 'package:study_flutter/BaseUI.dart';
 import 'package:study_flutter/Route2.dart';
 import 'package:study_flutter/base/ButtonRoute.dart';
 import 'package:study_flutter/base/CheckboxRoute.dart';
+import 'package:study_flutter/base/FormRoute.dart';
 import 'package:study_flutter/base/ImageRoute.dart';
 import 'package:study_flutter/base/TextFieldRoute.dart';
 import 'package:study_flutter/base/TextRoute.dart';
@@ -30,6 +31,7 @@ class MyApp extends StatelessWidget {
         "image_route": (context) => const ImageRoute(),
         "checkbox_route": (context) => const CheckboxRoute(),
         "text_field_route": (context) => const TextFieldRoute(),
+        "form_route": (context) => const FormRoute(),
       },
       home: const MyHomePage(title: '我的标题'),
     );

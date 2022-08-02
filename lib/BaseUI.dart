@@ -39,6 +39,11 @@ class BaseUI extends StatelessWidget {
                     Navigator.pushNamed(context, "text_field_route");
                   },
                   child: const Text("跳转 - TextField")),
+              TextButton(
+                  onPressed: () {
+                    Navigator.pushNamed(context, "form_route");
+                  },
+                  child: const Text("跳转 - Form")),
             ],
           ),
         ));
